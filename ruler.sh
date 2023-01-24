@@ -1,7 +1,7 @@
 #!/bin/sh
 
 inch=254 # tenths of a millimeter
-div=64
+div=${1:-64}
 precision=7 # the number of decimal places
 
 for l in $(seq 0 $div)

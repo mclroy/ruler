@@ -14,8 +14,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: Setup
+      run: chmod u+x ./ruler.sh
+
     - name: Run
-      run: ./ruler.sh
+      run: bash ./ruler.sh
 
 defaults:
   run:

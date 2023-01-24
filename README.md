@@ -1,7 +1,10 @@
 # ruler
-A one unit ruler with fractions and length markings with the unit being one inch.
+A one unit ruler with fractions and length markings with the unit being like one inch.
+
 Run it without options for 64 divisions or with a number of divisions and some precision.
 
+
+```
 $ ~/ruler.sh 16 4
 00/16: 0.0000 00.0000 -----
 01/16: 0.0625 01.5875 -
@@ -21,3 +24,4 @@ $ ~/ruler.sh 16 4
 15/16: 0.9375 23.8125 -
 16/16: 1.0000 25.4000 -----
 $ 
+```

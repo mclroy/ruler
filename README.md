@@ -1,2 +1,23 @@
 # ruler
-A ruler with 64 length markings and fractions
+A one unit ruler with fractions and length markings with the unit being one inch.
+Run it without options for 64 divisions or with a number of divisions and some precision.
+
+$ ~/ruler.sh 16 4
+00/16: 0.0000 00.0000 -----
+01/16: 0.0625 01.5875 -
+02/16: 0.1250 03.1750 --
+03/16: 0.1875 04.7625 -
+04/16: 0.2500 06.3500 ---
+05/16: 0.3125 07.9375 -
+06/16: 0.3750 09.5250 --
+07/16: 0.4375 11.1125 -
+08/16: 0.5000 12.7000 ----
+09/16: 0.5625 14.2875 -
+10/16: 0.6250 15.8750 --
+11/16: 0.6875 17.4625 -
+12/16: 0.7500 19.0500 ---
+13/16: 0.8125 20.6375 -
+14/16: 0.8750 22.2250 --
+15/16: 0.9375 23.8125 -
+16/16: 1.0000 25.4000 -----
+$ 
